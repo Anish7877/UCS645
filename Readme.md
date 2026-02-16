@@ -1,8 +1,17 @@
 # UCS645 (Parallel and Distributed Computing)
 
 ## Important:
+-   Use g++ version >= 15.0
 -   Code is written in C++23.
--   Always Use this command on Linux/Mac to compile the code.
+-   To Compile
     ``` bash
-    g++ -std=c++23 -Wall -Wextra -Wpedantic -fopenmp -O3 -march=native -o <output_file> <input_file>
+    make
+    ```
+-   To Run
+    ``` bash
+    make run
+    ```
+-   To Run with custom matrix size
+    ``` bash
+    make run ARGS="<number of rows> <number of columns>"
     ```
