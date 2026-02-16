@@ -2,5 +2,6 @@
 !*/
 !*/*.cpp
 !*/*.pdf
+!*/Makefile
 !.gitignore
 !Readme.md
