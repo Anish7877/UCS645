@@ -7,11 +7,19 @@
     ``` bash
     make
     ```
--   To Run
+-   To Run Parallel
     ``` bash
     make run
     ```
--   To Run with custom matrix size
+-   To Run Parallel with custom matrix size
     ``` bash
     make run ARGS="<number of rows> <number of columns>"
+    ```
+-   To Run Sequential
+    ``` bash
+    make run-seq
+    ```
+-   To Run Sequential with custom matrix size
+    ``` bash
+    make run-seq ARGS="<number of rows> <number of columns>"
     ```
